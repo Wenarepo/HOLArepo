@@ -1,0 +1,18 @@
+from SimpleCV import Camera, Display, Image
+import numpy as N
+
+c = Camera()
+
+def foto(c):
+    img = c.getImage()
+    img.show()
+    return img
+
+#img.show()
+
+#img2=N.array(img)
+
+#img2=img.getNumpy()
+
+img=foto(c)
+#[]
