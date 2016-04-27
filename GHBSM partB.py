@@ -70,17 +70,16 @@ pylab.imshow(orig)
 pylab.title('Imagen Original')
 
 pylab.subplot(2,2,2)
-pylab.plot(h)
-pylab.pause(0.0001)
-pylab.title('Histograma Img Gray')
+pylab.imshow(a)
+pylab.title('Im Bin(100) e invertida')
 
 pylab.subplot(2,2,3)
 pylab.imshow(b)
 pylab.title('Imagen Binarizada (50)')
 
 pylab.subplot(2,2,4)
-pylab.imshow(ainv)
-pylab.title('Imagen Binarizada (100)')
+pylab.imshow(c)
+pylab.title('Imagen Segmentada Sustraida')
 
 pylab.show()
 
